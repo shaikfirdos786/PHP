@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>Email Form</title>
+</head>
+
+<body>
+    <form action="send_email.php" method="post">
+        <label for="to">To:</label>
+        <input type="email" name="to" placeholder="email" required><br>
+        <label for="subject">Subject:</label>
+        <input type="text" name="subject" placeholder="subject" required><br>
+        <label for="message">Message:</label><br>
+        <textarea name="message" rows="4" placeholder="Enter Message" required></textarea><br>
+        <input type="submit" value="Send Email">
+    </form>
+</body>
+
+</html>
